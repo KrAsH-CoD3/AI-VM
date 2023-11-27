@@ -24,9 +24,3 @@ def generateChatResponse(prompt: str):
         answer: str = "Oops an Error occured, Try another question, If the problem persits"
 
     return answer
-
-# while True:
-#     prompt = input("You: ")
-#     if prompt == "/": break
-#     print(f"AI: {generateChatResponse(prompt)}")
-

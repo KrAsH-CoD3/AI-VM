@@ -8,7 +8,6 @@ class Config(object):
     TESTING = False
 
 class DevelopmentConfig(Config):
-    # SECRET_KEY = "super-secret-key-here"
     OPENAI_KEY = env_variable.get('OPENAIKEY')
 
 config = {
