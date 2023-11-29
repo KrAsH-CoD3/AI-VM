@@ -1,6 +1,5 @@
+import config, aiapi
 from flask import Flask, render_template, jsonify, request
-import config
-import aiapi
 
 
 def page_not_found(e):
